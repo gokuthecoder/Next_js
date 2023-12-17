@@ -51,8 +51,8 @@ export default function Home() {
           <Image
             src="/images/profile.jpg"
             alt="Your Name"
-            height={300} // Desired size with correct aspect ratio
-            width={300} />
+            height={400} // Desired size with correct aspect ratio
+            width={400} />
         </div>
       </main>
 
@@ -123,6 +123,11 @@ export default function Home() {
             Roboto,
             Oxygen,
             Ubuntu,
+            Cantarell,
+            Fira Sans,
+            Droid Sans,
+            Helvetica Neue,
+            sans-serif;
         }
         * {
           box-sizing: border-box;
